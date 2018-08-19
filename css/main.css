@@ -1,0 +1,142 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+  	font-family: 'Lato', sans-serif;
+  	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Cormorant Garamond', serif;
+  	margin: 0; 
+}
+
+h1 {
+	font-size: 3.125rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.875rem;
+}
+
+/*
+*
+* Header
+*
+*/
+
+.header {
+	margin: 40px 10px;
+	padding: 30px 0;
+	border-bottom: thin solid #efefef;
+}
+
+.profile-photo {
+	text-align: center;
+}
+
+.profile-photo img {
+	width: 100px;
+}
+
+.description {
+	text-align: center;
+	margin: 20px;
+}
+
+.description-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	margin: 0;
+}
+
+
+/*
+*
+* Hero
+*
+*/
+
+.hero {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	background-image: url("../img/cover.jpg");
+	background-position: center;
+}
+
+
+/*
+*
+* Main
+*
+*/
+
+main {
+	width: 100%;
+}
+
+
+/*
+*
+* Featured Work
+*
+*/
+
+.featured-work {
+	margin: 50px 0;
+}
+
+.featured-work-header {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.featured-work-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.featured-work-item {
+	width: 90%;
+	margin: 20px auto;
+	border: 2px solid #efefef;
+	border-radius: 4px;
+}
+
+.featured-work-items a {
+	color: #000;
+	text-decoration: none;
+}
+
+.featured-work-image {
+	width: 100%;
+}
+
+.featured-work-details {
+	padding: 30px;
+}
+
+.featured-work-title {
+	text-align: center;
+}
+
+/*
+*
+* Footer
+*
+*/
+
+footer {
+	text-align: center;
+	margin: 30px 0;
+}

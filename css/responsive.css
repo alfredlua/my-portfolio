@@ -1,0 +1,142 @@
+/*
+*
+* max-width: 499px;
+*
+*/
+
+
+@media screen and (max-width: 499px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.875rem;
+	}
+
+	h3 {
+		font-size: 1.5625rem;
+	}
+}
+
+/*
+*
+* min-width: 500px;
+*
+*/
+
+
+@media screen and (min-width: 500px) {
+	/*
+	*
+	* Hero
+	*
+	*/
+
+	.hero {
+		height: 350px;
+	}
+
+	/*
+	*
+	* Featured Work
+	*
+	*/
+
+	.featured-work-item {
+		width: 400px;
+		margin: 20px auto;
+	}
+}
+
+/*
+*
+* min-width: 800px;
+*
+*/
+
+
+@media screen and (min-width: 800px) {
+	/*
+	*
+	* Header
+	*
+	*/
+
+	.header {
+		margin: 40px 70px;
+	}
+	 
+	.header-inner {
+		height: 100px;
+	}
+
+	.profile-photo {
+		float: left;
+	}
+
+	.description {
+		float: right;
+		margin: 0;
+	}
+
+	/*
+	*
+	* Hero
+	*
+	*/
+
+	.hero {
+		height: 400px;
+		clear: both;
+	}
+
+	/*
+	*
+	* Featured Work
+	*
+	*/
+
+	.featured-work-item {
+		margin: 10px;
+	}
+}
+
+/*
+*
+* min-width: 1000px;
+*
+*/
+
+
+@media screen and (min-width: 1000px) {
+	/*
+	*
+	* Hero
+	*
+	*/
+
+	.hero {
+		height: 500px;
+	}
+}
+
+/*
+*
+* min-width: 1500px;
+*
+*/
+
+
+@media screen and (min-width: 1500px) {
+	/*
+	*
+	* Hero
+	*
+	*/
+
+	.hero {
+		height: 600px;
+		background-repeat: no-repeat;
+	}
+}
