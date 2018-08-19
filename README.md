@@ -1,1 +1,3 @@
-# udacity-project-1
+# Udacity Project 1
+
+## My Portfolio
